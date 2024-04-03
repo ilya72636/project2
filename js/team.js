@@ -88,13 +88,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    let switchButto = document.getElementById("switchMode");
+// document.addEventListener("DOMContentLoaded", function() {
+//     let switchButto = document.getElementById("switchMode");
 
-    switchButto.addEventListener("click", function() {
-        document.body.style.backgroundImage = "url('/project/img/ad.jpeg')";
-    });
-});
+//     switchButto.addEventListener("click", function() {
+//         document.body.style.backgroundImage = "url('/img/ad.jpeg')";
+//     });
+// });
 
 function changeCSS() {
     // Изменяем значения переменных CSS
